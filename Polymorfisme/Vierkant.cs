@@ -15,6 +15,11 @@ namespace Polymorfisme
             return Rib * Rib;
         }
 
+        public override double BerekenOmtrek()
+        {
+            return 4 * Rib;
+        }
+
         public Vierkant(string name, double rib)
         {
             Name = name;
