@@ -7,16 +7,16 @@ Console.WriteLine("Voorbeeld polymorfisme");
 Vorm deVorm = new Cirkel("cirkel", 100);
 double area = deVorm.BerekenOppervlakte();
 double omtrek = deVorm.BerekenOmtrek();
-Console.WriteLine($"De oppervlakte van {deVorm.Name} is {area}");
+Console.WriteLine($"De oppervlakte van {deVorm.Name} is {area} en {omtrek}");
 
 // Nu neemt de "Vorm" de vorm van "Vierkant" aan
 deVorm = new Vierkant("vierkant", 100);
 area = deVorm.BerekenOppervlakte();
 omtrek = deVorm.BerekenOmtrek();
-Console.WriteLine($"De oppervlakte van {deVorm.Name} is {area}");
+Console.WriteLine($"De oppervlakte van {deVorm.Name} is {area} en {omtrek}");
 
 // Nu neemt de "Vorm" de vorm van "Driehoek" aan
 deVorm = new Driehoek("driehoek", 100, 100);
 area = deVorm.BerekenOppervlakte();
 omtrek = deVorm.BerekenOmtrek();
-Console.WriteLine($"De oppervlakte van {deVorm.Name} is {area}");
+Console.WriteLine($"De oppervlakte van {deVorm.Name} is {area} en {omtrek}");
